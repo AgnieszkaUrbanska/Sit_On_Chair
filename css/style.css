@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+}
+
+header .logo {
+    color: white;
+    float: left;
+    line-height: 60px;
+    font-weight: 700;
+}
+header nav ul{
+    list-style: none;
+    color: white;
+}
+
+
+
+
