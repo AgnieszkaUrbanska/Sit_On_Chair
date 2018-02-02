@@ -8,6 +8,9 @@
 </head>
 <body>
 
+
+<!--------header-nav-------->
+
 <header>
     <nav>
 <div class="container">
@@ -22,8 +25,10 @@
     </nav>
 </header>
 
+
+<!----------slider---------->
+
 <section>
-    <!--slider-->
     <div class="slider">
         <div class="container">
             <div class="arrow-left"><</div>
@@ -44,6 +49,9 @@
     </div>
 
 </section>
+
+
+<!----------sekcja z krzesłami---------->
 
 <section>
     <div class="container">
@@ -70,8 +78,10 @@
     </div>
 </section>
 
+
+<!---------pricelists--------->
+
 <section>
-    <!--pricelists-->
     <div class="row-payments">
     <div class="container">
         <div class="title">CENNIK</div>
@@ -102,7 +112,7 @@
                 </span>
 
                 <span class="circle3"></span>
-                <h4>STANDARD PLAN</h4>
+                <h4><span style="color:white">STANDARD PLAN</span></h4>
                 <article class="price-content">
                     <span class="big">95</span>
                     <span class="small">99</span>
@@ -146,27 +156,54 @@
 </section>
 
 
+
+<!--------contactform + redchair-------->
+
 <section>
-    <div class="container">
-    <div class="row3">
+<div class="container">
     <div class="contact">KONTAKT</div>
-    <form class="contact-form">
-            <div class="form-left">
-                <input id="name" type="text" placeholder="Imię"/>
-                <input id="email" type="email" placeholder="Email"/>
-                <textarea id="message"  placeholder="Wiadomość"></textarea>
-            </div>
-    </form>
-        <div class="form-right">
-    <img src="images/red_chair.png">
-            <div class="checkbox">
-                <input type="checkbox" id="agree" name="agree"><label for="agree">Zgadzam się na przetwarzanie danych osobowych</label>
-            </div>
-            <span>Zgadzam się na przetwarzanie danych osobowych</span>
-            <input type="submit" value="wyślij">
+
+
+    <div class="form-right">
+        <div class="red_chair"></div>
+        <label class="checkbox">
+            <input type="checkbox"/>
+            <span>
+
+        <p class="agree">Zgadzam się na przetwarzanie danych osobowych</p>
+                </span>
+        </label>
+        <a class="send_button" href="#">Wyślij</a>
+    </div>
+
+
+    <form>
+        <div class="form_group">
+            <label>
+                <input type="text" name="name" placeholder="Imię">
+            </label>
         </div>
-    </div>
-    </div>
+
+        <div class="form_group">
+            <label>
+                <input type="email" name="email" placeholder="email">
+            </label>
+        </div>
+
+        <div class="form_group">
+            <label>
+                <textarea cols="50" rows="7" placeholder="Wiadomość"></textarea>
+            </label>
+        </div>
+    </form>
+</div>
+
+
+</section>
+
+
+
+<!--------footer------->
 
 <div class="container">
     <footer class="center">
@@ -175,12 +212,14 @@
             <li><a href="#"><img src="./images/flickr.png" alt="flickr logo" /></a></li>
             <li><a href="#"><img src="./images/vimeo.png" alt="vimeo logo" /></a></li>
             <li><a href="#"><img src="./images/pinterest.png" alt="pinterest logo" /></a></li>
-            <li class="twitter"><a href="#"><img src="./images/twitter.png" alt="twitter logo" /></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt="twitter logo" /></a></li>
             <li>SIT<span> ON </span>CHAIR </li>
         </ul>
     </footer>
 </div>
-</section>
+
+
+
 </body>
 </html>
 
